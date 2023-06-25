@@ -1,0 +1,33 @@
+Project Steps:
+
+1-Setting up Limits Microservice:
+ *Created a Spring Boot project for the limits microservice. 
+
+2- Creating a hard-coded limits service:
+*Implemented a basic limits service with hard-coded values.
+  
+3- Enhancing limits service to pick up configuration from application properties:
+  * Modified the limits service to fetch configuration values from the application properties file, enabling dynamic configuration.
+    
+4- Setting up Spring Cloud Config Server:
+  * Added the necessary dependencies to enable Spring Cloud Config Server functionality.
+    
+5- Installing Git and Creating a Local Git Repository:
+  * Installed Git and created a local Git repository to store configuration files.
+    
+6- Connecting Spring Cloud Config Server to the Local Git Repository:
+  * Configured Spring Cloud Config Server to retrieve configuration files from the local Git repository.
+
+7- Connecting Limits Service to Spring Cloud Config Server:
+  * Configured the limits microservice to fetch its configuration from the Spring Cloud Config Server.
+  * Updated application properties to point to the Config Server for dynamic configuration retrieval.
+
+8- Configuring Profiles for the Limits Service:
+  * Defined different profiles for the limits microservice based on the environment.
+  * Managed specific configuration properties for each profile in the Git repository.
+
+By completing these steps, the project successfully integrated the Spring Boot microservice with Spring Cloud Config Server and a GitHub repository.
+This setup enables central management of configuration files, making it easier to manage and update configurations across different environments.
+
+This project serves as a reference for implementing a robust and scalable configuration management system using Spring Cloud Config and Git.
+It showcases the power of version control and the flexibility of Spring Cloud Config Server in managing configurations for microservices.
