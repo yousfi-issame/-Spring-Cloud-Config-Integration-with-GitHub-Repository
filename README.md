@@ -4,10 +4,10 @@ This project demonstrates the integration of a Spring Boot microservice with Spr
 Project Steps:
 
 1-Setting up Limits Microservice:
-  *Created a Spring Boot project for the limits microservice. 
-  
+ *Created a Spring Boot project for the limits microservice. 
+
 2- Creating a hard-coded limits service:
-  *Implemented a basic limits service with hard-coded values.
+*Implemented a basic limits service with hard-coded values.
   
 3- Enhancing limits service to pick up configuration from application properties:
   * Modified the limits service to fetch configuration values from the application properties file, enabling dynamic configuration.
